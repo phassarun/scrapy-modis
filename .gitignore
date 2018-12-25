@@ -1,3 +1,4 @@
 exports/
 .vscode/
 __pycache__
+logs/
