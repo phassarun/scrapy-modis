@@ -1,10 +1,12 @@
 # Scrapy-Modis
 
 ### Installation
+- using ```pip```
 ```sh
 $ pip install -r requirements.text
 ```
 or
+- using ```conda```
 ```sh
 $ conda install --file requirements.txt
 ```
