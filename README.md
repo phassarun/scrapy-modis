@@ -13,7 +13,10 @@ $ conda install --file requirements.txt
 ---
 
 ### Development
-First, set environment variable for authentication MODIS website.
+First, Register ```username``` and ```password```. This [link](https://urs.earthdata.nasa.gov/users/new)
+
+Second, set environment variable for authentication MODIS website. 
+
 - MacOS
 ```sh
 $ export MODIS_USERNAME='username'
@@ -25,7 +28,7 @@ $ set MODIS_USERNAME='username'
 $ set MODIS_PASSWORD='password
 ```
 
-Second, run scrapy
+Last, run scrapy
 ```sh
 $ scrapy crawl modis
 ```
